@@ -66,3 +66,45 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.main-layout {
+  display: flex;
+  flex: 1;
+}
+aside {
+  width: 200px;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+aside li a {
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #333;
+}
+main {
+  flex: 1;
+  padding: 20px;
+}
